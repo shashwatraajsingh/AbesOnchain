@@ -1,0 +1,35 @@
+# Sui Binaries and Archives
+sui
+sui-bridge
+sui-bridge-cli
+sui-cli.tgz
+sui-data-ingestion
+sui-debug
+sui-faucet
+sui-graphql-rpc
+sui-node
+sui-test-validator
+sui-tool
+move-analyzer
+
+# OS generated files
+.DS_Store
+.Thumbs.db
+
+# Dependencies
+**/node_modules/
+
+# Next.js
+**/.next/
+**/out/
+**/build/
+
+# Sui Build
+**/sui_contract/build/
+**/.move/
+
+# Environment variables
+.env
+.env.local
+**/.env
+**/.env.local
